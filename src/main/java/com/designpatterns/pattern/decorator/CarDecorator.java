@@ -1,4 +1,6 @@
 package com.designpatterns.pattern.decorator;
 
-public class CarDecorator {
+public abstract class CarDecorator implements Car {
+  protected Car car;
+
 }
